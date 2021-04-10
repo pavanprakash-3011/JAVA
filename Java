@@ -1,0 +1,17 @@
+package Java;
+
+import java.util.Scanner;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		int minutes = s.nextInt();
+		int hours = minutes/60;
+		int days = hours/24;
+		int years = days/365;
+		int realdays = days%365;
+		System.out.println(years+" years and "+realdays+" days");
+		
+		
+	}
